@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CRM FrameWork Design concept" verbose ="4">
+
+   <listeners>
+       <listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG" />
+ </listeners>
+ 
+ 
+  <test  name="CRM automation Test">
+  
+    <classes>
+      <class name="com.crm.qa.tests.CRMHomePageTest"/>
+      <class name="com.crm.qa.tests.CRMLoginPageTest"/>
+      <class name="com.crm.qa.tests.CRMTasksPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

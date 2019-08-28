@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [CRM FrameWork Design concept]">
+  <test thread-count="5" verbose="4" name="CRM automation Test(failed)">
+    <classes>
+      <class name="com.crm.qa.tests.CRMTasksPageTest">
+        <methods>
+          <include name="verifyNewtaskTextTest"/>
+          <include name="verifyshowtaskTextTest"/>
+          <include name="createNewtasksTest" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.tests.CRMTasksPageTest -->
+    </classes>
+  </test> <!-- CRM automation Test(failed) -->
+</suite> <!-- Failed suite [CRM FrameWork Design concept] -->
